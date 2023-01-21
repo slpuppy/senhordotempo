@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75B210A9297C46E100093786 /* ForecastWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B210A8297C46E100093786 /* ForecastWeather.swift */; };
+		75CABAB42979B9E500E74BB1 /* CurrentLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABAB32979B9E500E74BB1 /* CurrentLocationViewModel.swift */; };
+		75CABABA2979BBAC00E74BB1 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABAB82979BBAC00E74BB1 /* ApiError.swift */; };
+		75CABABC2979BBB500E74BB1 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABABB2979BBB500E74BB1 /* ApiEndpoint.swift */; };
+		75CABABE2979BBC200E74BB1 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABABD2979BBC200E74BB1 /* CurrentLocation.swift */; };
+		75CABAC02979BBC600E74BB1 /* CurrentLocationNetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABABF2979BBC600E74BB1 /* CurrentLocationNetworkServices.swift */; };
+		75CABAC22979BBC900E74BB1 /* Extension + ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABAC12979BBC900E74BB1 /* Extension + ApiEndpoint.swift */; };
+		75CABAC42979BBCA00E74BB1 /* Extension + URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABAC32979BBCA00E74BB1 /* Extension + URLSession.swift */; };
+		75CABAC82979BBEC00E74BB1 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CABAC72979BBEC00E74BB1 /* CurrentWeather.swift */; };
 		75FCFF60297867B200212BCC /* CuWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCFF5F297867B200212BCC /* CuWeatherApp.swift */; };
 		75FCFF62297867B200212BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCFF61297867B200212BCC /* ContentView.swift */; };
 		75FCFF64297867B500212BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FCFF63297867B500212BCC /* Assets.xcassets */; };
 		75FCFF67297867B500212BCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FCFF66297867B500212BCC /* Preview Assets.xcassets */; };
+		75FCFF722978693800212BCC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCFF712978693800212BCC /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75B210A8297C46E100093786 /* ForecastWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastWeather.swift; sourceTree = "<group>"; };
+		75CABAB32979B9E500E74BB1 /* CurrentLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewModel.swift; sourceTree = "<group>"; };
+		75CABAB82979BBAC00E74BB1 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		75CABABB2979BBB500E74BB1 /* ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		75CABABD2979BBC200E74BB1 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
+		75CABABF2979BBC600E74BB1 /* CurrentLocationNetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationNetworkServices.swift; sourceTree = "<group>"; };
+		75CABAC12979BBC900E74BB1 /* Extension + ApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + ApiEndpoint.swift"; sourceTree = "<group>"; };
+		75CABAC32979BBCA00E74BB1 /* Extension + URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + URLSession.swift"; sourceTree = "<group>"; };
+		75CABAC72979BBEC00E74BB1 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		75FCFF5C297867B200212BCC /* CuWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FCFF5F297867B200212BCC /* CuWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuWeatherApp.swift; sourceTree = "<group>"; };
 		75FCFF61297867B200212BCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75FCFF63297867B500212BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75FCFF66297867B500212BCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75FCFF68297867B500212BCC /* CuWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CuWeather.entitlements; sourceTree = "<group>"; };
+		75FCFF712978693800212BCC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75B210A7297C427B00093786 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		75CABAB52979BB8000E74BB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75CABAC72979BBEC00E74BB1 /* CurrentWeather.swift */,
+				75B210A8297C46E100093786 /* ForecastWeather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75CABAB62979BB9800E74BB1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				75B210A7297C427B00093786 /* New Group */,
+				75CABAB82979BBAC00E74BB1 /* ApiError.swift */,
+				75CABABD2979BBC200E74BB1 /* CurrentLocation.swift */,
+				75CABABF2979BBC600E74BB1 /* CurrentLocationNetworkServices.swift */,
+				75CABAC12979BBC900E74BB1 /* Extension + ApiEndpoint.swift */,
+				75CABAC32979BBCA00E74BB1 /* Extension + URLSession.swift */,
+				75CABABB2979BBB500E74BB1 /* ApiEndpoint.swift */,
+			);
+			name = Networking;
+			path = LocationServices/Networking;
+			sourceTree = "<group>";
+		};
 		75FCFF53297867B200212BCC = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +103,12 @@
 		75FCFF5E297867B200212BCC /* CuWeather */ = {
 			isa = PBXGroup;
 			children = (
+				75CABAB62979BB9800E74BB1 /* Networking */,
+				75CABAB52979BB8000E74BB1 /* Models */,
+				75FCFF702978692300212BCC /* LocationServices */,
 				75FCFF5F297867B200212BCC /* CuWeatherApp.swift */,
 				75FCFF61297867B200212BCC /* ContentView.swift */,
+				75CABAB32979B9E500E74BB1 /* CurrentLocationViewModel.swift */,
 				75FCFF63297867B500212BCC /* Assets.xcassets */,
 				75FCFF68297867B500212BCC /* CuWeather.entitlements */,
 				75FCFF65297867B500212BCC /* Preview Content */,
@@ -67,6 +122,14 @@
 				75FCFF66297867B500212BCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75FCFF702978692300212BCC /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				75FCFF712978693800212BCC /* LocationManager.swift */,
+			);
+			path = LocationServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +203,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FCFF62297867B200212BCC /* ContentView.swift in Sources */,
+				75CABAC82979BBEC00E74BB1 /* CurrentWeather.swift in Sources */,
 				75FCFF60297867B200212BCC /* CuWeatherApp.swift in Sources */,
+				75CABABC2979BBB500E74BB1 /* ApiEndpoint.swift in Sources */,
+				75CABABE2979BBC200E74BB1 /* CurrentLocation.swift in Sources */,
+				75FCFF722978693800212BCC /* LocationManager.swift in Sources */,
+				75CABAB42979B9E500E74BB1 /* CurrentLocationViewModel.swift in Sources */,
+				75B210A9297C46E100093786 /* ForecastWeather.swift in Sources */,
+				75CABAC22979BBC900E74BB1 /* Extension + ApiEndpoint.swift in Sources */,
+				75CABAC42979BBCA00E74BB1 /* Extension + URLSession.swift in Sources */,
+				75CABABA2979BBAC00E74BB1 /* ApiError.swift in Sources */,
+				75CABAC02979BBC600E74BB1 /* CurrentLocationNetworkServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +274,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -254,7 +327,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -275,6 +348,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The app uses the location to fetch weather data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app uses your location to fetch weather data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -302,6 +377,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The app uses the location to fetch weather data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app uses your location to fetch weather data";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
